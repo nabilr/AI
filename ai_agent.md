@@ -13,7 +13,7 @@ An **agent** is an entity that **perceives** its environment through **sensors**
 ### **Characteristics of an Agent**  
 
 1. **Situatedness**  
-   - The agent receives sensory input from its **environment** and performs actions that change the environment.  
+   - Situatedness refers to an agent's ability to interact with its environment in real-time based on sensory inputs and actions. A situated agent continuously perceives changes in its environment and acts accordingly to achieve its goals. 
    - Example: A robot navigating a room or an AI chatbot responding to messages.  
 
 2. **Autonomy**  
