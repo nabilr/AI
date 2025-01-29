@@ -245,6 +245,92 @@ A **rational agent** makes decisions using a structured approach based on its pe
 - They optimize decisions based on **goal achievement** and **performance measures**.  
 - **Different AI models** (rule-based, search-based, utility-based, ML-based) are used depending on the complexity of decision-making.
 
+## **What is an Environment in AI?**
+In AI, an **environment** refers to the **external system** with which an **agent interacts**. The environment provides **percepts (inputs)** to the agent through **sensors**, and the agent affects the environment through **actions (outputs)** via **effectors**.
+
+### **Example: Self-Driving Car**
+- **Environment:** Roads, pedestrians, traffic lights, other vehicles.
+- **Percepts:** GPS data, road signs, speed, obstacles.
+- **Actions:** Steering, accelerating, braking.
+
+---
+
+## **Types of Environments in AI**
+Environments can be categorized based on their properties:
+
+### **1️⃣ Fully Observable vs. Partially Observable**
+| Type | Description | Example |
+|------|------------|---------|
+| **Fully Observable** | The agent has complete access to all relevant information. | Chess game (board is visible). |
+| **Partially Observable** | Some information is hidden, requiring inference. | Self-driving car (blind spots exist). |
+
+---
+
+### **2️⃣ Deterministic vs. Stochastic**
+| Type | Description | Example |
+|------|------------|---------|
+| **Deterministic** | The next state is fully predictable from the current state and action. | Chess (no randomness). |
+| **Stochastic** | The next state has an element of uncertainty. | Stock market (prices fluctuate unpredictably). |
+
+---
+
+### **3️⃣ Static vs. Dynamic**
+| Type | Description | Example |
+|------|------------|---------|
+| **Static** | The environment does not change while the agent is deciding. | Chess (board remains the same until a move is made). |
+| **Dynamic** | The environment keeps changing over time. | Autonomous driving (traffic conditions change). |
+
+---
+
+### **4️⃣ Discrete vs. Continuous**
+| Type | Description | Example |
+|------|------------|---------|
+| **Discrete** | A limited number of defined states and actions. | Tic-tac-toe (fixed grid and moves). |
+| **Continuous** | Infinite possible states and actions. | Robot movement (infinite positions and angles). |
+
+---
+
+### **5️⃣ Single-Agent vs. Multi-Agent**
+| Type | Description | Example |
+|------|------------|---------|
+| **Single-Agent** | Only one agent is interacting with the environment. | A thermostat adjusting room temperature. |
+| **Multi-Agent** | Multiple agents interact and compete or collaborate. | Online multiplayer game (AI bots vs. humans). |
+
+---
+
+### **6️⃣ Episodic vs. Sequential**
+| Type | Description | Example |
+|------|------------|---------|
+| **Episodic** | Each action is **independent**; previous actions do not affect the next. | Image classification (each image is classified separately). |
+| **Sequential** | Actions affect future actions (history matters). | Chess (each move changes the game state). |
+
+---
+
+### **7️⃣ Accessible vs. Inaccessible**
+| Type | Description | Example |
+|------|------------|---------|
+| **Accessible** | The agent can gather complete data from the environment. | Turn-based board games (all pieces are visible). |
+| **Inaccessible** | The agent has limited or no access to some information. | Poker (opponents’ cards are hidden). |
+
+---
+
+### **Real-World Examples of Different Environments**
+| AI System | Environment Type |
+|-----------|----------------|
+| **Chess AI** | Fully Observable, Deterministic, Discrete, Static, Single-Agent |
+| **Self-Driving Car** | Partially Observable, Stochastic, Continuous, Dynamic, Multi-Agent |
+| **Stock Market AI** | Partially Observable, Stochastic, Continuous, Dynamic, Multi-Agent |
+| **Medical Diagnosis AI** | Partially Observable, Episodic, Static, Single-Agent |
+
+---
+
+## **Conclusion**
+The **type of environment** determines the **complexity of the AI system**.  
+- **Fully observable, deterministic environments** are easier for AI (e.g., Chess).  
+- **Partially observable, stochastic environments** require learning and adaptation (e.g., Self-Driving Cars).  
+
+---
+
 ### **Real-World Case Study: Rational Agent in AI**  
 
 #### **Case Study: Google’s Self-Driving Car (Waymo) 🚗**
