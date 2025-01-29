@@ -414,6 +414,7 @@ IBM Watson is a **rational AI agent** designed to assist doctors in diagnosing d
 ---
 
 ## **How IBM Watson Functions as a Rational Agent**
+
 | **Step**          | **How IBM Watson Implements It** |
 |------------------|--------------------------------|
 | **1. Perceives the Environment** | Processes patient data from medical records, lab reports, and clinical notes. |
