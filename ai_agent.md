@@ -57,10 +57,6 @@ Used in **software-based AI agents** that interact in digital environments.
 
 ---
 
-## **Conclusion**
-Effectors **allow AI agents to act** on their environment, completing the perception-action cycle. They can be **physical (motors, lights, arms)** or **virtual (text output, API calls, speech synthesis)**.  
-
-
 ### **Characteristics of an Agent**  
 
 1. **Situatedness**  
